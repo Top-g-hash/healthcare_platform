@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="signupForm">
+        <h1>Let's you Sign Up</h1>
+        <div class="form-field">
+            <label for="employeeId">Employee I'd / Username</label>
+            <input type="text" id="employeeId" name="employeeId" placeholder="Symbol ($,&,+..) not allowed" required>
+        </div>
+        <div class="form-field">
+            <label for="password">Create Password</label>
+            <input type="password" id="password" name="password" minlength="4" maxlength="12" placeholder="4-5 characters"required>
+        </div>
+        <div class="form-field">
+            <label for="mobile">Mobile No.</label>
+            <input type="text" id="mobile" name="mobile" pattern="[0-9]{10}" placeholder="10 digits" required>
+        </div>
+        <div class="form-field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="abc@xyz.com" required>
+        </div>
+        <button type="submit">Sign Up</button>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background: #fff;
+}
+
+.login-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-side {
+    flex: 1;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side img {
+    width: 100%;
+    height: auto;
+}
+
+.right-side {
+    flex: 1;
+    background: linear-gradient(to right, #8c52ff, #5ce1e6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black; 
+    font-size: 36px; 
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    width: 80%; 
+}
+
+label {
+    margin-bottom: 12px;
+    color: white; 
+    font-size: 15px; 
+}
+
+input {
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+}
+
+#check-box {
+    width: auto;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #070606;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+    width: 100%; 
+}
+
+p {
+    color: #fff;
+    font-size: 15px; 
+    margin-top: 10px; 
+}
+
+button:hover {
+    background-color: #070606;
+}
+
+a {
+    color: white;
+}
+
+.login-form h1 {
+    margin-top: 70px;
+    text-align: left;
+}
+
+.login-form.href {
+    display: flex;
+    justify-content: space-between;
+}
